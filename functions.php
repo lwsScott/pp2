@@ -15,3 +15,8 @@ function printArray($myArray)
         echo "$number" . "<br>";
     }
 }
+
+function largest($myArray)
+{
+    echo "The largest number is: " . (max($myArray)) . "<br>";
+}

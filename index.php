@@ -17,4 +17,8 @@ $numbers = array(7, 9, 8, 8, 8, 6);
 // Step 3
 include ("functions.php");
 printArray($numbers);
+// Step 3
+echo "Step 3" . "<br>";
+largest($numbers);
+
 
