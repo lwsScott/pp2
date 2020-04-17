@@ -20,3 +20,13 @@ function largest($myArray)
 {
     echo "The largest number is: " . (max($myArray)) . "<br>";
 }
+
+function removeDups($myArray)
+{
+    $newArray = array_unique($myArray);
+    echo "The array with dups removed is:" . "<br>";
+    foreach ($newArray as $number)
+    {
+        echo "$number" . "<br>";
+    }
+}

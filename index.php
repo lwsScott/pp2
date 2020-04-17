@@ -17,8 +17,10 @@ $numbers = array(7, 9, 8, 8, 8, 6);
 // Step 3
 include ("functions.php");
 printArray($numbers);
-// Step 3
-echo "Step 3" . "<br>";
+// Step 4
+echo "Step 4" . "<br>";
 largest($numbers);
-
+// Step 5
+echo "Step 5" . "<br>";
+removeDups($numbers);
 
