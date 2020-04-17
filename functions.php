@@ -8,13 +8,10 @@
 //Turn on error reporting
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
-?>
-<?php
-echo "PHP Array Practice" . "<br>";
-// Step 2
-echo "Step 2" . "<br>";
-$numbers = array(7, 9, 8, 8, 8, 6);
-// Step 3
-include ("functions.php");
-printArray($numbers);
-
+function printArray($myArray)
+{
+    foreach ($myArray as $number)
+    {
+        echo "$number" . "<br>";
+    }
+}
