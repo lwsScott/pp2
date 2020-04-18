@@ -12,15 +12,19 @@ error_reporting(E_ALL);
 <?php
 echo "PHP Array Practice" . "<br>";
 // Step 2
-echo "Step 2" . "<br>";
+echo "Step 2 - print array" . "<br>";
 $numbers = array(7, 9, 8, 8, 8, 6);
 // Step 3
 include ("functions.php");
 printArray($numbers);
+echo "Step 3 - moved function to a functions.php file" . "<br>";
 // Step 4
-echo "Step 4" . "<br>";
+echo "Step 4 - find largest number in array" . "<br>";
 largest($numbers);
 // Step 5
-echo "Step 5" . "<br>";
+echo "Step 5 - remove duplicates from array" . "<br>";
 removeDups($numbers);
+// Step 6
+echo "Step 6 - associative array with number and its frequency in array" . "<br>";
+distribution($numbers);
 

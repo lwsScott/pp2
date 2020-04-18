@@ -30,3 +30,10 @@ function removeDups($myArray)
         echo "$number" . "<br>";
     }
 }
+
+function distribution($myArray)
+{
+    $newArray = array_count_values($myArray);
+    echo "The array distribution is:" . "<br>";
+    print_r($newArray);
+}
